@@ -1,5 +1,6 @@
 pub mod market_data;
 
+#[derive(Debug, Clone)]
 pub struct MarketData {
     pub symbol: String,        // Trading symbol, e.g., "BTC/USD"
     pub timestamp: u64,        // Data timestamp, usually in milliseconds
